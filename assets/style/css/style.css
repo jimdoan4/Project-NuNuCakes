@@ -188,15 +188,15 @@ h5 {
 }
 .btn-custom {
   color: #ffffff;
-  background-color: #2b4661;
+  background-color: #d145ac;
   font-size: 18px;
   font-family: "muse-500", Arial, sans-serif;
   transition: 0.3s all ease-out;
 }
 .btn-custom:hover {
   box-shadow: 1px 3px 12px 0px #b3b3b3;
-  color: #ffffff;
-  background: #2554a1;
+  color: #2a2b2b;
+  background: #ffebf9;
 }
 /*************************** NAVBAR **********************/
 .card {
@@ -496,23 +496,25 @@ h5 {
 /**************************** FOOTER ***************************/
 footer {
   padding: 20px;
-  background: #d145ac;
+  /* background: #d145ac; */
+  background: white;
+  color: #2a2b2b;
 }
 footer .container-fluid .social {
   margin-bottom: 10px;
 }
 footer .container-fluid .social a {
-  color: #ffffff;
-  font-size: 16px;
+  color: #2a2b2b;
+  font-size: 13px;
   margin-left: 20px;
 }
 footer .container-fluid .copyright-area p {
-  color: white;
+  color: #2a2b2b;
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
 }
 footer .container-fluid .copyright-area p a {
-  color: #ffffff;
+  color: #2a2b2b;
   text-decoration: none;
 }
 /**************************** MEDIA-QUERY ***************************/
