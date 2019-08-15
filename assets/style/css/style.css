@@ -527,6 +527,16 @@ footer .container-fluid .copyright-area p a {
   }
 }
 @media only screen and (max-width: 414px) {
+  #header #header-container {
+    padding: 50px;
+    background: url('https://images-gmi-pmc.edge-generalmills.com/de1a5aa7-036c-49a0-8f2f-133b60502401.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+  }
   .orders {
  margin-top: 20px;
   }
@@ -537,7 +547,8 @@ footer .container-fluid .copyright-area p a {
   }
 
   .baked {
-    font-size: 60px;
+    font-size: 53px;
+    margin-top: -10px;
   }
 
   .about-her {
