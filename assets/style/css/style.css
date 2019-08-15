@@ -527,6 +527,10 @@ footer .container-fluid .copyright-area p a {
   }
 }
 @media only screen and (max-width: 414px) {
+  .orders {
+ margin-top: 20px;
+  }
+
   .center {
     width: 270px;
     height: 150px;
