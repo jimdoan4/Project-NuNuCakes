@@ -198,6 +198,8 @@ h5 {
   color: #2a2b2b;
   background: #ffebf9;
 }
+
+
 /*************************** NAVBAR **********************/
 .card {
   border-color: white;
@@ -205,6 +207,7 @@ h5 {
 
 .card:hover {
   border-color: #ffebf9;
+  background: #ffebf9;
   transition: 0.7s all ease-out;
 }
 .sub {
