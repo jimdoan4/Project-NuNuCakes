@@ -135,7 +135,7 @@ html {
   background-color: #ffffff;
 }
 body {
-  background-color: #ffffff;
+  background-color: #F4C4D7;
   color: #2a2b2b;
 }
 p,
@@ -547,6 +547,7 @@ footer .container-fluid .copyright-area p a {
   .center {
     width: 270px;
     height: 150px;
+    margin-left: 20px;
   }
 
   .baked {
@@ -587,4 +588,26 @@ footer .container-fluid .copyright-area p a {
   #mission {
     opacity: 1;
   }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {  
+  .about-hers {
+  width: 289px;
+  height: 190px;
+}
+.about-her {
+  width: 320px;
+  height: 320px;
+}
+.about-herz {
+  width: 289px;
+  height: 220px;
+}
+.order-picture {
+  width: 209px;
+  height: 200px;
+}
+
 }
