@@ -213,7 +213,7 @@ h5 {
 
 
 .btn-custom a {
-  color: white!important;
+  color: white !important;
 }
 
 .btn-custom:hover {
@@ -444,6 +444,7 @@ h5 {
   font-size: 22px;
   margin-bottom: 33px;
 }
+
 /**************************** FOOTER ***************************/
 footer {
   padding: 20px;
@@ -478,12 +479,12 @@ footer .container-fluid .copyright-area p a {
 @media only screen and (max-width: 414px) {
   #header #header-container {
     padding: 50px;
-    background: url('https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/68825287_10156737525079624_6109685953171816448_n.jpg?_nc_cat=106&_nc_oc=AQmpih3vN-HpBUYzQxAloksMHzo5FD7qj-dOARxM5MxWBtz5XFZlYPM5HAeLAnFlzPE&_nc_ht=scontent.fatl1-2.fna&oh=ebf06541ade10af267c2fb2e1236fe41&oe=5DD845A2');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    background: url('https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/68825287_10156737525079624_6109685953171816448_n.jpg?_nc_cat=106&_nc_oc=AQmpih3vN-HpBUYzQxAloksMHzo5FD7qj-dOARxM5MxWBtz5XFZlYPM5HAeLAnFlzPE&_nc_ht=scontent.fatl1-2.fna&oh=ebf06541ade10af267c2fb2e1236fe41&oe=5DD845A2')!important;
+    background-attachment: fixed!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    width: 100%!important;
     height: 480px;
   }
 
@@ -501,6 +502,10 @@ footer .container-fluid .copyright-area p a {
   .order-picture {
     width: 239px;
     height: 200px;
+  }
+
+  #contact .shop-cupcakes {
+    margin-top: 33px;
   }
 
   .center-icon {
