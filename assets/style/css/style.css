@@ -19,12 +19,6 @@
   src: url('../fonts/OpenSans-SemiBold.ttf');
 }
 
-/***************************** variables *****************************/
-/***************************** GENRAL RESET *****************************/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html,
 body,
 div,
@@ -144,7 +138,7 @@ html {
 }
 
 body {
-  background-color: #F4C4D7;
+  background-color: #F4C4D7 !important;
   color: #2a2b2b;
 }
 
@@ -209,20 +203,25 @@ h5 {
 
 .btn-custom {
   color: #ffffff;
-  background-color: #d145ac;
+  background-color: #d145ac !important;
   font-size: 18px;
   font-family: "muse-500", Arial, sans-serif;
   transition: 0.3s all ease-out;
+  margin-top: 53px;
+  padding: 10px !important;
+}
+
+
+.btn-custom a {
+  color: white!important;
 }
 
 .btn-custom:hover {
   box-shadow: 1px 3px 12px 0px #b3b3b3;
   color: #2a2b2b;
-  background: #ffebf9;
+  background: #ffebf9 !important;
 }
 
-
-/*************************** NAVBAR **********************/
 .card {
   border-color: white;
 }
@@ -233,15 +232,17 @@ h5 {
   transition: 0.7s all ease-out;
 }
 
-.sub {
+/*************************** NAVBAR **********************/
+
+.featured-contents {
   color: #d145ac;
-  margin-top: -40px;
-  font-family: 'Oleo Script', cursive;
-  letter-spacing: 3px;
-  font-size: 20px;
+  margin: 30px !important;
+  font-family: 'Oleo Script', cursive !important;
+  letter-spacing: 3px !important;
+  font-size: 20px !important;
 }
 
-.center {
+.center-icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -249,7 +250,7 @@ h5 {
   height: 25%;
 }
 
-.centers {
+.center-nav-links {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -297,20 +298,6 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
-}
-
-.baked {
-  font-family: 'Oleo Script', cursive;
-  font-size: 80px;
-  color: #2a2b2b;
-}
-
-.bakeds {
-  font-size: 27px !important;
-  color: #2a2b2b;
-  margin-top: -150px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 #header #header-container .text-container {
@@ -362,133 +349,24 @@ h5 {
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
 }
 
-/**************************** GET-INVOLVED ***************************/
-#get-involved {
-  padding: 50px 0;
+.shop-cupcakes {
+  font-size: 30px !important;
+  font-family: 'Oleo Script', cursive !important;
+  letter-spacing: 7px !important;
 }
 
-#get-involved .container h3 {
-  font-family: "muse-500", Arial, sans-serif;
-  margin-bottom: 50px;
+.baked {
+  font-family: 'Oleo Script', cursive;
+  font-size: 80px;
+  color: #2a2b2b;
 }
 
-#get-involved .container .row .col-md-4 img {
-  height: 150px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 30px;
-}
-
-#get-involved .container .row .col-md-4 h4 {
-  font-family: "muse-500", Arial, sans-serif;
-  margin-bottom: 15px;
-}
-
-#get-involved .container .row .col-md-4 p {
-  font-family: "muse-500", Arial, sans-serif;
-  line-height: 1.5;
-}
-
-.about-me h4 {
-  font-family: "muse-500", Arial, sans-serif;
-  color: #61c0bd;
-  font-weight: bold;
-}
-
-.about-me {
-  font-family: "muse-500", Arial, sans-serif;
-  color: black;
-}
-
-#get-involved .container .row .col-md-4 a {
-  margin-top: 10px;
-}
-
-/**************************** MISSION ***************************/
-#mission {
-  background-color: #f2f2f2;
-  padding: 50px 0;
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
-  opacity: 0;
-  transition: all 0.7s ease-out;
-}
-
-#mission .container h3,
-#mission .container h4 {
-  font-family: "muse-500", Arial, sans-serif;
-}
-
-#mission .container h5 {
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
-}
-
-#mission .container .row .col-md-4 .card {
-  border: none;
-  border-radius: 5px;
-  margin-top: 50px;
-}
-
-#mission .container .row .col-md-4 .card .icon-container {
-  border-radius: 50%;
-  margin: 0 auto;
-  border: 8px solid #ffffff;
-  background: #2b4661;
-  margin-top: -45px;
-  width: 100px;
-}
-
-#mission .container .row .col-md-4 .card .icon-container img {
-  padding: 16px;
-  width: 75px;
-  height: 70px;
-}
-
-#mission .container .row .col-md-4 .card .card-body .card-title {
-  color: #2b4661;
-  margin-bottom: 15px;
-  font-family: "muse-300", Georgia, serif;
-}
-
-#mission .container .row .col-md-4 .card .card-body .card-text {
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-}
-
-/**************************** MEMBERS ***************************/
-#members {
-  padding: 50px 50px 0 50px;
-}
-
-#members .container h3 {
-  font-family: "muse-500", Arial, sans-serif;
-  margin-bottom: 60px;
-}
-
-#members .container #members-slider img {
-  height: 50px;
-  width: 120px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-
-#members .container #members-slider img:hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease-out;
-}
-
-#members .container .owl-carousel .owl-dots.disabled {
-  display: inline-block;
-  margin-top: 50px;
-}
-
-#members .container .owl-theme .owl-dots .owl-dot.active span,
-#members .container .owl-theme .owl-dots .owl-dot:hover span {
-  background: #2b4661 !important;
-}
-
-#members .container .owl-theme .owl-dots .owl-dot span {
-  background: #2b4661 !important;
+.bakeds {
+  font-size: 27px !important;
+  color: #2a2b2b;
+  margin-top: -150px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /********************************* EVENT ***********************************/
@@ -511,50 +389,36 @@ h5 {
   line-height: 1.3;
 }
 
-/********************************* BLOG ***********************************/
-#blog {
-  padding: 0 0 50px 0;
+#event h3 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 22px;
+  margin-bottom: 33px;
 }
 
-#blog h3 {
-  font-family: "muse-500", Arial, sans-serif;
-  color: #2b4661;
-  margin: 50px 0;
+#event h5 {
+  font-size: 30px !important;
+  font-family: 'Oleo Script', cursive;
+  letter-spacing: 7px;
 }
 
-#blog #blog-slider .item a h4 {
-  font-family: "OpenSans-Semibold", Arial, sans-serif;
-  color: #2b4661;
-  border-bottom: 1px solid #f2f2f2;
+.card-title {
+  font-size: 18px !important;
 }
 
-#blog #blog-slider .item a .main-p {
-  font-family: "OpenSans", Helvetica, Arial, sans-serif;
-  color: #2b4661;
-  line-height: 1.5;
-  border-bottom: 1px solid #f2f2f2;
+.title {
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  font-size: 18px !important;
 }
 
-#blog #blog-slider .item a p {
-  color: #2b4661;
-}
-
-#blog .owl-nav {
-  display: inline-block;
-  position: relative;
-  left: 48%;
-  margin-top: 20px;
-}
-
-#blog .owl-prev {
-  font-size: 30px;
-  color: #2b4661;
-  margin-right: 25px;
-}
-
-#blog .owl-next {
-  font-size: 30px;
-  color: #2b4661;
+.order-title {
+  text-align: left;
+  text-decoration: underline;
+  color: #d145ac;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 /**************************** CONTACT ***************************/
@@ -567,22 +431,24 @@ h5 {
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
 }
 
+#contact h4 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#contact h3 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 22px;
+  margin-bottom: 33px;
+}
 /**************************** FOOTER ***************************/
 footer {
   padding: 20px;
-  /* background: #d145ac; */
   background: white;
   color: #2a2b2b;
-}
-
-footer .container-fluid .social {
-  margin-bottom: 10px;
-}
-
-footer .container-fluid .social a {
-  color: #2a2b2b;
-  font-size: 13px;
-  margin-left: 20px;
 }
 
 footer .container-fluid .copyright-area p {
@@ -612,7 +478,7 @@ footer .container-fluid .copyright-area p a {
 @media only screen and (max-width: 414px) {
   #header #header-container {
     padding: 50px;
-    background: url('http://images-gmi-pmc.edge-generalmills.com/de1a5aa7-036c-49a0-8f2f-133b60502401.jpg');
+    background: url('https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/68825287_10156737525079624_6109685953171816448_n.jpg?_nc_cat=106&_nc_oc=AQmpih3vN-HpBUYzQxAloksMHzo5FD7qj-dOARxM5MxWBtz5XFZlYPM5HAeLAnFlzPE&_nc_ht=scontent.fatl1-2.fna&oh=ebf06541ade10af267c2fb2e1236fe41&oe=5DD845A2');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -621,8 +487,8 @@ footer .container-fluid .copyright-area p a {
     height: 480px;
   }
 
-  .orders {
-    margin-top: 20px;
+  .order-title {
+    margin-top: 30px;
   }
 
   .ordering {
@@ -637,7 +503,7 @@ footer .container-fluid .copyright-area p a {
     height: 200px;
   }
 
-  .center {
+  .center-icon {
     width: 270px;
     height: 150px;
     margin-left: 24px;
@@ -678,14 +544,6 @@ footer .container-fluid .copyright-area p a {
   #event {
     padding-bottom: 0;
   }
-
-  #blog {
-    padding-bottom: 0;
-  }
-
-  #mission {
-    opacity: 1;
-  }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -708,5 +566,4 @@ footer .container-fluid .copyright-area p a {
     width: 209px;
     height: 200px;
   }
-
 }
