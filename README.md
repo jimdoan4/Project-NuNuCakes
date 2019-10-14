@@ -5,7 +5,7 @@ NuNu Cakes is an online public application designed for users to select cupcakes
 
 ### Project Links
 
-[Heroku](https://www.nunucakes.com/)
+[Website](https://www.nunucakes.com/)
 
 
 ### Technical Specifications
