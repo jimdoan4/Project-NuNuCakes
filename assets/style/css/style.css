@@ -292,11 +292,11 @@ h5 {
 
 #header #header-container {
   padding: 50px;
-  background: url('https://www.biggerbolderbaking.com/wp-content/uploads/2017/09/1C5A0996.jpg')!important;
+  background: url('https://www.biggerbolderbaking.com/wp-content/uploads/2017/09/1C5A0996.jpg') !important;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat!important;
-  background-size: cover!important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   height: 530px;
 }
 
@@ -608,12 +608,12 @@ footer .container-fluid .copyright-area p a {
 @media only screen and (max-width: 414px) {
   #header #header-container {
     padding: 50px;
-    background: url('https://www.biggerbolderbaking.com/wp-content/uploads/2017/09/1C5A0996.jpg')!important;
-    background-attachment: fixed!important;
-    background-position: center!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-    width: 100%!important;
+    background: url('https://www.biggerbolderbaking.com/wp-content/uploads/2017/09/1C5A0996.jpg') !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100% !important;
     height: 480px;
   }
 
@@ -701,26 +701,42 @@ footer .container-fluid .copyright-area p a {
 /**************************** MEDIA-QUERY-IPHONE ***************************/
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   #header #header-container {
-    padding: 20px!important;
-    background: url("https://www.biggerbolderbaking.com/wp-content/uploads/2017/09/1C5A0996.jpg")!important;
-    background-position: center!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-    height: 530px!important;
+    padding: 20px !important;
+    background: url("https://www.biggerbolderbaking.com/wp-content/uploads/2017/09/1C5A0996.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 530px !important;
     width: 100% !important;
   }
 
+  .visit {
+    width: 343px;
+    height: 220px;
+  }
+
+  .visit-img {
+    margin-bottom: 30px !important;
+  }
 }
 
 /**************************** MEDIA-QUERY-IPAD PRO ***************************/
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #header #header-container {
-    padding: 20px!important;
-    background: url("https://www.biggerbolderbaking.com/wp-content/uploads/2017/09/1C5A0996.jpg")!important;
-    background-position: center!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important; 
-    height: 530px!important;
+    padding: 20px !important;
+    background: url("https://www.biggerbolderbaking.com/wp-content/uploads/2017/09/1C5A0996.jpg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 530px !important;
     width: 100% !important;
+  }
+
+  .footer-story {
+    margin-top: 280px;
+  }
+
+  .footer-visit {
+    margin-top: 40px;
   }
 }
