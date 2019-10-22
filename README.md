@@ -1,7 +1,7 @@
 # NuNu Cakes
 
 ### Overview
-NuNu Cakes is an online public application designed for users to select cupcakes and special packages. User can be able to email the owner any specific requests through email engine. 
+NuNu Cakes is an online cupcake public application designed for users to select cupcakes and special packages. User can be able to email the owner any specific requests through email engine. 
 
 ### Project Links
 
