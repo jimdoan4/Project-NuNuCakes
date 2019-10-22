@@ -718,6 +718,10 @@ footer .container-fluid .copyright-area p a {
   .visit-img {
     margin-bottom: 30px !important;
   }
+  
+  .feature-img {
+    margin-bottom: 30px !important;
+  }
 }
 
 /**************************** MEDIA-QUERY-IPAD PRO ***************************/
